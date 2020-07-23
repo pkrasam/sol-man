@@ -1,4 +1,4 @@
-
+![sol-man](images/sol-man.png)
 
 # sol-man
 Inspired by some of the work done already, creating a simple pac man style eat the block game for sol
