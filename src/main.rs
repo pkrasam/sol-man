@@ -12,12 +12,10 @@ use crate::controler::Controler;
 use crate::pacman::Pacman;
 use crate::view::View;
 
-// TODO: Control the ghosts for Milady
-
 fn main() {
     let opengl = OpenGL::V3_2;
 
-    let mut window: Window = WindowSettings::new("pacman-game", [750, 750])
+    let mut window: Window = WindowSettings::new("solman", [750, 750])
         .opengl(opengl)
         .exit_on_esc(true)
         .build()

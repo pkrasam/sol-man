@@ -997,19 +997,6 @@ version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
-name = "rust-gaem"
-version = "0.1.0"
-dependencies = [
- "piston 0.39.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "piston-texture 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "piston2d-graphics 0.28.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "piston2d-opengl_graphics 0.57.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "piston_window 0.89.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "pistoncore-glutin_window 0.51.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "rand 0.6.4 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
 name = "rustc-demangle"
 version = "0.1.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1121,6 +1108,19 @@ dependencies = [
  "wayland-client 0.21.10 (registry+https://github.com/rust-lang/crates.io-index)",
  "wayland-commons 0.21.10 (registry+https://github.com/rust-lang/crates.io-index)",
  "wayland-protocols 0.21.10 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "solman"
+version = "0.0.1"
+dependencies = [
+ "piston 0.39.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "piston-texture 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "piston2d-graphics 0.28.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "piston2d-opengl_graphics 0.57.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "piston_window 0.89.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "pistoncore-glutin_window 0.51.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rand 0.6.4 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]

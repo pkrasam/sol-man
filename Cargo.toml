@@ -1,7 +1,6 @@
 [package]
-name = "rust-gaem"
-version = "0.1.0"
-authors = ["Mendess2526 <pedro.mendes.26@gmail.com>"]
+name = "solman"
+version = "0.0.1"
 edition = "2018"
 
 [[bin]]
@@ -9,7 +8,7 @@ name = "spinning-square"
 path = "spinning/square.rs"
 
 [[bin]]
-name = "pac"
+name = "sol"
 path = "src/main.rs"
 
 [dependencies]
