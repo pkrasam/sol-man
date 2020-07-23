@@ -1,16 +1,17 @@
-# rust-pacman
-
-Simple pacman implementation using [Piston-rs](https://www.piston.rs/) and OpenGl.
+# sol-man
+Inspired by some of the work done already, creating a simple pac man style eat the block game for sol
 
 ## Running
-```Bash
-cargo run --release --bin pac
+```
+cargo run --release --bin sol
 ```
 
-
 ## Key bindings
-Vim keys or arrow keys for movement
+vim keys or arrow keys for movement
 
-`P` to pause
-
-`Q` to quit
+:arrow_up: to move up
+:arrow_down: to move down
+:arrow_left: to move left
+:arrow_right: to move right
+`p` to pause
+`q` to quit
