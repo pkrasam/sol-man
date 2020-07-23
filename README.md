@@ -10,8 +10,13 @@ cargo run --release --bin sol
 vim keys or arrow keys for movement
 
 :arrow_up: to move up
+
 :arrow_down: to move down
+
 :arrow_left: to move left
+
 :arrow_right: to move right
+
 `p` to pause
+
 `q` to quit
